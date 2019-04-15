@@ -2,9 +2,9 @@
 class Circuitry < Formula
   desc "The CLI tools for building circuitry applications"
   homepage "https://www.getcircuitry.com"
-  url "https://www.getcircuitry.com/maven/com/circuitry/tools/project-creator/1.0.04152019131524/project-creator-1.0.04152019131524.zip"
-  sha256 "224b5621215709c8a4dc732c5608ac2efa2b68676baebf78e0bdb64f66937d4a"
-  version "1.0.04152019131524"
+  url "https://www.getcircuitry.com/maven/com/circuitry/tools/project-creator/1.0.20190415131658/project-creator-1.0.20190415131658.zip"
+  sha256 "22709f01213b39c2a58f0231fd490ca96d0f055524fec1489daae09abaa99d61"
+  version "1.0.20190415131658"
 
   def install
     inreplace "brew/circuitry", "##PREFIX##", "#{prefix}"
